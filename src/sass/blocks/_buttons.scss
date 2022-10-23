@@ -16,3 +16,24 @@
 		height: 50px;
 	}
 }
+@media (max-width:767.5px) {
+	.button{
+		&__promo{
+			margin-top: 40px;
+		}
+	}
+}
+@media (max-width: 424.5px){
+	.button{
+		&__header{
+			width: 120px;
+			height: 24px;
+			font-size: 10px;
+		}
+		&__promo{
+			margin-top: 60px;
+			width: 250px;
+			height: 40px;
+		}
+	}
+}

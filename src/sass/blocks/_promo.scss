@@ -10,14 +10,12 @@
 	}
 	&__title{
 		font-size: 42px;
-		line-height: 42px;
 		text-transform: uppercase;
 	}
 	&__subtitle{
 		margin-top: 17px;
 		font-weight: 500;
 		font-size: 24px;
-		line-height: 24px;
 		text-transform: uppercase;
 	}
 	&__icons{
@@ -26,11 +24,10 @@
 		justify-content: flex-end;
 	}
 	&__icon{
-		width: 136px;
+		width: 120px;
 		text-align: center;
 		font-weight: 500;
 		font-size: 14px;
-		line-height: 14px;
 		img{
 			display: block;
 			margin: 0 auto;
@@ -44,6 +41,62 @@
 		a{
 			text-decoration: underline;
 			text-transform: uppercase;
+		}
+	}
+}
+@media (max-width:767.5px) {
+	.promo{
+		min-height: 490px;
+		padding-bottom: 40px;
+		background: url(../img/bg/bg-top.jpg) 33% center/cover no-repeat;
+		&__wrapper{
+			margin-top: 40px;
+		}
+		&__title{
+			font-size: 38px;
+		}
+		&__subtitle{
+			font-size: 20px;
+		}
+		&__icons{
+			margin-top: 40px;
+		}
+	}
+}
+@media (max-width:575.5px) {
+	.promo{
+		&__wrapper{
+			align-items: center;
+		}
+		&__title{
+			font-size: 30px;
+		}
+		&__subtitle{
+			font-size: 16px;
+		}
+	}
+}
+@media (max-width:424.5px) {
+	.promo{
+		&__wrapper{
+			align-items: center;
+			margin-top: 90px;
+		}
+		&__title{
+			font-size: 22px;
+		}
+		&__subtitle{
+			font-size: 12px;
+		}
+		&__icons{
+			margin-top: 20px;
+		}
+		&__icon{
+			width: 90px;
+			font-size: 10px;
+			img{
+				width: 30px;
+			}
 		}
 	}
 }
