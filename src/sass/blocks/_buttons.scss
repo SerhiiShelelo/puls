@@ -15,11 +15,22 @@
 		width: 300px;
 		height: 50px;
 	}
+	&__form{
+		height: 55px;
+	}
 }
 @media (max-width:767.5px) {
 	.button{
 		&__promo{
 			margin-top: 40px;
+		}
+	}
+}
+@media (max-width:575.5px) {
+	.button{
+		&__form{
+			height: 40px;
+			font-size: 14px;
 		}
 	}
 }
